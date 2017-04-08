@@ -1,0 +1,330 @@
+body {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  font-size: 0.12rem; }
+
+.header {
+  height: 0.45rem;
+  line-height: 0.45rem;
+  text-align: center;
+  position: relative;
+  padding-left: 0.15rem;
+  padding-right: 0.15rem;
+  box-sizing: border-box; }
+  .header a {
+    position: absolute;
+    top: 0; }
+    .header a i {
+      font-size: 0.16rem;
+      color: #3b3b3b; }
+  .header .left {
+    left: 0.15rem; }
+  .header .right {
+    right: 0.15rem; }
+  .header h2 {
+    font-size: 0.16rem;
+    color: #3b3b3b; }
+
+.section {
+  -webkit-flex: 1;
+  overflow-y: scroll;
+  background: #eeeeee; }
+  .section .banner {
+    height: 1.45rem; }
+    .section .banner img {
+      width: 100%;
+      height: 100%; }
+  .section .files {
+    background: #ffffff; }
+    .section .files h2 {
+      height: 0.45rem;
+      line-height: 0.45rem;
+      font-size: 0.14rem;
+      color: #4f99f2;
+      padding-left: 0.15rem;
+      box-sizing: border-box; }
+    .section .files p {
+      margin-bottom: 0.06rem; }
+      .section .files p b {
+        height: 0.2rem;
+        font-size: 0.14rem;
+        font-weight: normal;
+        display: block;
+        padding-left: 0.15rem;
+        box-sizing: border-box; }
+    .section .files span {
+      display: block;
+      line-height: 0.24rem;
+      font-size: 0.12rem;
+      color: #333333;
+      padding-left: 0.36rem;
+      box-sizing: border-box; }
+  .section h3 {
+    height: 0.5rem;
+    line-height: 0.5rem;
+    background: #4f99f2;
+    text-align: center;
+    font-size: 0.14rem;
+    font-weight: normal;
+    color: #ffffff; }
+  .section .shaqima dt {
+    height: 2.5rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    box-sizing: border-box;
+    background: #ffffff; }
+    .section .shaqima dt img {
+      width: 100%;
+      height: 100%; }
+  .section .shaqima dd h4 {
+    height: 0.43rem;
+    line-height: 0.43rem;
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    font-size: 0.16rem;
+    background: #ffffff;
+    color: #333333;
+    padding-left: 0.15rem;
+    font-weight: normal;
+    box-sizing: border-box; }
+  .section .shaqima dd .introduce {
+    display: -webkit-flex;
+    background: #ffffff; }
+    .section .shaqima dd .introduce .left p {
+      border-right: 1px solid #eeeeee; }
+    .section .shaqima dd .introduce div {
+      -webkit-flex: 1; }
+      .section .shaqima dd .introduce div p {
+        text-align: center;
+        padding-top: 0.1rem;
+        padding-bottom: 0.1rem;
+        box-sizing: border-box;
+        border-bottom: 1px solid #eeeeee; }
+        .section .shaqima dd .introduce div p span {
+          display: block; }
+        .section .shaqima dd .introduce div p span:nth-child(1) {
+          height: 0.22rem;
+          font-size: 0.12rem;
+          color: #333333; }
+        .section .shaqima dd .introduce div p span:nth-child(2) {
+          font-size: 0.12rem;
+          color: #4f99f2; }
+      .section .shaqima dd .introduce div ul {
+        padding: 0.06rem 0.1rem 0.06rem 0.15rem;
+        box-sizing: border-box; }
+        .section .shaqima dd .introduce div ul li {
+          line-height: 0.2rem;
+          font-size: 0.12rem;
+          color: #333333; }
+  .section .area {
+    background: #ffffff; }
+    .section .area .neimenggu {
+      display: -webkit-flex;
+      padding-left: 0.15rem;
+      box-sizing: border-box;
+      margin-bottom: 0.11rem;
+      padding-top: 0.15rem; }
+      .section .area .neimenggu dt {
+        width: 0.45rem;
+        height: 0.45rem;
+        margin-right: 0.08rem; }
+        .section .area .neimenggu dt img {
+          width: 100%;
+          height: 100%; }
+      .section .area .neimenggu dd {
+        width: 80%; }
+        .section .area .neimenggu dd p {
+          height: 0.22rem;
+          line-height: 0.22rem; }
+          .section .area .neimenggu dd p a {
+            color: #4f99f2;
+            text-decoration: underline; }
+    .section .area p {
+      height: 0.21rem;
+      line-height: 0.21rem;
+      padding-left: 0.15rem;
+      box-sizing: border-box;
+      font-size: 0.12rem;
+      color: #333333; }
+      .section .area p .one {
+        margin-right: 0.15rem; }
+      .section .area p .two {
+        margin-right: 0.28rem; }
+    .section .area .map-map {
+      height: 1.8rem;
+      margin-bottom: 0.15rem; }
+  .section .record {
+    background: #ffffff; }
+    .section .record .record-top {
+      padding-top: 0.1rem;
+      padding-bottom: 0.1rem;
+      box-sizing: border-box;
+      height: 0.72rem;
+      text-align: center; }
+      .section .record .record-top p {
+        height: 0.26rem;
+        line-height: 0.26rem;
+        font-size: 0.12rem;
+        color: #4f99f2; }
+        .section .record .record-top p i {
+          font-size: 0.14rem;
+          margin-left: 0.05rem;
+          color: #4f99f2; }
+          .section .record .record-top p i:last-child {
+            color: #333333; }
+    .section .record .record-bottom {
+      display: -webkit-flex;
+      -webkit-flex-wrap: wrap; }
+      .section .record .record-bottom dl {
+        width: 50%; }
+        .section .record .record-bottom dl dt {
+          height: 0.8rem;
+          text-align: center; }
+          .section .record .record-bottom dl dt img {
+            width: 0.8rem;
+            height: 0.8rem; }
+        .section .record .record-bottom dl dd {
+          height: 0.38rem;
+          line-height: 0.38rem;
+          text-align: center;
+          font-size: 0.12rem;
+          color: #4f99f2; }
+  .section .identification {
+    background: #ffffff; }
+    .section .identification h5 {
+      height: 0.4rem;
+      line-height: 0.4rem;
+      text-align: center;
+      color: #4f99f2;
+      font-size: 0.14rem; }
+      .section .identification h5:nth-child(2) {
+        height: 0.2rem;
+        line-height: 0.2rem; }
+    .section .identification p {
+      display: -webkit-flex;
+      padding-left: 0.15rem;
+      padding-right: 0.15rem;
+      box-sizing: border-box; }
+      .section .identification p span {
+        -webkit-flex: 1;
+        color: #333333;
+        text-align: center; }
+        .section .identification p span i {
+          font-size: 0.14rem;
+          color: #333333;
+          margin-left: 0.7rem; }
+    .section .identification dl dt {
+      padding-top: 0.08rem;
+      padding-bottom: 0.15rem;
+      box-sizing: border-box;
+      height: 1.7rem; }
+      .section .identification dl dt img {
+        width: 100%;
+        height: 100%; }
+    .section .identification dl dd {
+      padding-left: 0.35rem;
+      padding-right: 0.35rem;
+      line-height: 0.26rem;
+      box-sizing: border-box;
+      text-align: center;
+      font-size: 0.12rem; }
+  .section .company {
+    padding-left: 0.15rem;
+    padding-right: 0.15rem;
+    box-sizing: border-box; }
+    .section .company h2 {
+      height: 0.48rem;
+      line-height: 0.48rem;
+      text-align: center;
+      color: #5fa0f3;
+      font-size: 0.14rem; }
+    .section .company p {
+      text-indent: 0.2rem;
+      line-height: 0.26rem;
+      font-size: 0.14rem;
+      color: #333333; }
+  .section .shop {
+    padding-left: 0.15rem;
+    padding-right: 0.15rem;
+    box-sizing: border-box; }
+    .section .shop h2 {
+      height: 0.48rem;
+      line-height: 0.48rem;
+      text-align: center;
+      color: #5fa0f3;
+      font-size: 0.14rem; }
+    .section .shop p {
+      height: 0.62rem;
+      line-height: 0.62rem;
+      border-top: 1px solid #eeeeee;
+      display: -webkit-flex; }
+      .section .shop p span {
+        -webkit-flex: 1;
+        text-align: center;
+        font-size: 0.14rem; }
+        .section .shop p span i {
+          color: #4f99f2;
+          margin-right: 0.06rem; }
+    .section .shop ol li {
+      padding-left: 0.15rem;
+      padding-right: 0.15rem;
+      box-sizing: border-box;
+      height: 0.59rem;
+      line-height: 0.59rem;
+      border-bottom: 1px solid #eeeeee;
+      font-size: 0.14rem;
+      position: relative; }
+      .section .shop ol li i {
+        color: #333333;
+        font-size: 0.14rem;
+        position: absolute;
+        right: 0;
+        top: 0.22rem; }
+  .section .more {
+    padding-left: 0.15rem;
+    padding-right: 0.15rem;
+    box-sizing: border-box; }
+    .section .more h2 {
+      height: 0.48rem;
+      line-height: 0.48rem;
+      text-align: center;
+      color: #5fa0f3;
+      font-size: 0.14rem; }
+    .section .more .more-product {
+      display: -webkit-flex; }
+      .section .more .more-product dl {
+        -webkit-flex: 1;
+        margin-right: 0.08rem; }
+        .section .more .more-product dl dt {
+          height: 1.02rem;
+          margin-bottom: 0.08rem; }
+          .section .more .more-product dl dt img {
+            width: 100%;
+            height: 100%; }
+        .section .more .more-product dl dd p {
+          line-height: 0.17rem;
+          color: #333333;
+          font-size: 0.12rem; }
+        .section .more .more-product dl dd b {
+          display: inline-block;
+          line-height: 0.2rem;
+          margin-bottom: 0.12rem; }
+          .section .more .more-product dl dd b i {
+            font-size: 0.12rem;
+            color: #4f99f2; }
+            .section .more .more-product dl dd b i:last-child {
+              color: #333333; }
+
+.footer {
+  height: 0.5rem;
+  line-height: 0.5rem;
+  text-align: center;
+  font-size: 0.14rem;
+  color: #333333;
+  background: #eeeeee; }
+
+/*# sourceMappingURL=style.css.map */
